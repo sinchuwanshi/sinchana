@@ -1,0 +1,132 @@
+.about_p{
+    color: #F1EB7E;
+    background-color: red;
+    border:2px solid black;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 30px;
+    padding-left:30px;
+}
+.heading{
+    text-align: center;
+    color:greenyellow;
+    font: size 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.balls {
+  width: 4em;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.balls div {
+  width: 0.8em;
+  height: 0.8em;
+  border-radius: 50%;
+  background-color: #fc2f70;
+}
+
+.balls div:nth-of-type(1) {
+  transform: translateX(-100%);
+  animation: left-swing 0.5s ease-in alternate infinite;
+}
+
+.balls div:nth-of-type(3) {
+  transform: translateX(-95%);
+  animation: right-swing 0.5s ease-out alternate infinite;
+}
+
+@keyframes left-swing {
+  50%,
+  100% {
+    transform: translateX(95%);
+  }
+}
+
+@keyframes right-swing {
+  50% {
+    transform: translateX(-95%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.banner .img1:hover{
+    
+    box-shadow: 53px -29px 57px -11px rgba(0,0,0,0.75);
+
+}
+.heading :hover{
+color:red;
+background-color: black;
+
+}
+input:focus{
+    background-color: black;
+    color:white;
+}
+input{
+    border:1px solid black;
+    width:400px;
+    height:20px;
+    border-radius:20px;
+}
+
+
+
+
+
+.balls {
+  width: 4em;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.balls div {
+  width: 0.8em;
+  height: 0.8em;
+  border-radius: 50%;
+  background-color: #fc2f70;
+}
+
+.balls div:nth-of-type(1) {
+  transform: translateX(-100%);
+  animation: left-swing 0.5s ease-in alternate infinite;
+}
+
+.balls div:nth-of-type(3) {
+  transform: translateX(-95%);
+  animation: right-swing 0.5s ease-out alternate infinite;
+}
+
+@keyframes left-swing {
+  50%,
+  100% {
+    transform: translateX(95%);
+  }
+}
+
+@keyframes right-swing {
+  50% {
+    transform: translateX(-95%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+
+.foot
+{
+  text-align: center;
+}
+
+
+  
+ 
